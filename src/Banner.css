@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.banner1{
+    height: 70vh;
+    width: 100vw;
+    background-size: cover;}
+    
+.banner{
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+
+}
+
+
+.banner__image{
+    width: 100%;
+    height: 40%;
+   
+    margin-top: 0px;
+}
+
+.banner>h3{
+    color: white;
+    position: absolute;
+    left: 5vw;
+    top: 32vh;
+    font-size: 4vh;
+    font-weight: 500;
+}
+
+.banner>h3>small{
+    font-weight: lighter;
+}
+
+.banner>h1{
+    color: white;
+    position: absolute;
+    left: 4.6vw;
+    top: 32vh;
+    font-size: 15vh;
+    font-weight: 700;
+}
+
+.button__div{
+    width: 100%;
+}
+
+.button__div>button{
+    background-color: rgba(255,255,255,0.109);
+    color: white;
+    border: 0;
+    position: absolute;
+    top: 52vh;
+    min-width: 10vw;
+    max-width: 15vw;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    transition: .2s;
+}
+.button__div>.button1{
+    left: 5vw;
+}
+
+.button__div>.button2{
+    left: 15.5vw;
+}
+
+.button__div>button:focus{
+    outline: none;
+    transform: scale(1.05);
+}
+
+
+.intro__container{
+    position: absolute;
+    left: 5vw;
+    top: 58vh;
+    width: 22vw;
+}
+
+.intro{
+    color: white;
+    font-size: 10px;
+}
+
+@media (max-width:1100px){
+    .banner>h1{
+        color: white;
+        position: absolute;
+        left: 4.6vw;
+        top: 35vh;
+        font-size: 10vh;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width:750px){
+    .banner>h1{
+        color: white;
+        position: absolute;
+        left: 4.6vw;
+        top: 38vh;
+        font-size: 5vh;
+        font-weight: 700;
+    }
+    .intro__container{
+        width: 80vw;
+    }
+}

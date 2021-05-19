@@ -1,0 +1,110 @@
+.details{
+    position: relative;
+    height: 37vw;
+    margin-top: 1rem;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+
+.details__background, .details__background__shadow, .details__background__image, .details__area{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+
+.details__background{
+    left: 0;
+    right: 0;
+
+}
+
+.details__background__shadow{
+    left: 0;
+    background-color: #000;
+    width: 30%;
+    z-index: 2;
+}
+
+.details__background__shadow:before{
+    content: '';
+    position: absolute;
+    z-index: 10;
+    background-image: linear-gradient(to right, #000,transparent);
+    top: 0;
+    bottom: 0;
+    left: 100%;
+    width: 275px;
+}
+
+.details__background__image{
+    right: 0;
+    width: 70%;
+    height: 100%;
+    background-position: center 10%;
+    background-size: cover;
+    z-index: 1;
+}
+
+.details__area{
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 3;
+
+    background: linear-gradient(72deg, black 45%, transparent);
+}
+
+.details__area__container{
+    padding: 30px 70px;
+    padding-bottom: 5rem;
+    color: wheat;
+}
+
+.details__title{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 700;
+    display: flex;
+    margin-right: auto;
+}
+
+.details__description{
+    font-size: 18px;
+    color: #999;
+    margin-top: 20px;
+    max-width: 500px;
+    text-align: left;
+}
+
+.trailerButton{
+    width: 130px;
+    height: 30px;
+    background-color: #C30913;
+    display: flex;
+   
+    margin-top: 1rem;
+    /* margin-left: 40px; */
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    border: none;
+    color: white;
+    opacity: .5;
+
+}
+
+.trailerButton:hover{
+    opacity: 1;
+}
+
+@media(max-width:690px){
+    .details__area__container{
+        padding: 30px 40px;
+        padding-bottom: 5rem;
+    }
+  
+
+}

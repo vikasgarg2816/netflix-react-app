@@ -1,0 +1,47 @@
+.slider{
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 0vh;
+    position: absolute;
+    width: 100%;
+    top: 78%;
+    
+}
+/* height: 160px */
+.card{
+    width: 290px;
+    height: 160px;    
+    background-color:red;
+    font-size: 30px;
+    padding: 0;
+}
+
+.card__image{
+    width: 100%;
+    cursor: pointer;
+    height: 310px;
+}
+ /* arrow button targeted */
+.lgksPe{
+    height: 0px !important;
+    width: 0px !important;
+}
+
+/* arrow buttons are targeted but with different class */
+
+.iLquPE:disabled{
+    height: 0px !important;
+    width: 0px !important;
+}
+
+/* purple dot */
+
+.sc-gKsewC{
+    visibility: hidden;
+}
+
+.button3{
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+}
